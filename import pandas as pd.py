@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 # Load customers data
-customersdata = pd.read_csv("customers-data.csv")
+customersdata = pd.read_csv("Mall_Customers.csv")
 
 # Define K-means model
 kmeans_model = KMeans(init='k-means++', max_iter=400, random_state=42)
